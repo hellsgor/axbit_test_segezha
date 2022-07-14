@@ -354,7 +354,10 @@ body {
 		}
 
 		&_text-only {
-			order: -1;
+			@media (max-width: 767px) {
+				order: -1;
+			}
+			
 		}
 	}
 
